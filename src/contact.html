@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MS | About Me</title>
+    <link rel="stylesheet" href="contact.css"/>
+    <link rel="icon" href="icon/title_aboutme.png">
+</head>
+<body>
+<section class="navBar">
+    <ul>
+        <li>
+            <div><a href="home.html">Home</a></div>
+        </li>
+        <li>
+            <div><a href="education.html">Previous Education</a></div>
+        </li>
+        <li>
+            <div><a href="aboutme.html">About Me</a></div>
+        </li>
+        <li>
+            <div class="currentPage">
+                <a href="contact.html">Contact</a>
+                <script src="script.js"></script>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li id="email">
+            <section>
+                <div><a onclick="clipboardCopy('mihailsekuloski@gmail.com', 'Email')" href = "mailto:mihailsekuloski@gmail.com"><img src="icon/icon-email2.png" alt="Email Icon" width=40px height=40px> Send Email</a></div>
+            </section>
+        </li>
+    </ul>
+</section>
+
+<section class="mainBody">
+    <section id="cont" class="hContainer">
+        <section>
+            <h1>Contact</h1>
+            <p>
+                For business inquiries, feel free to contact me on my email:<br>
+                <span>mihailsekuloski@gmail.com</span><br>
+                <a href = "mailto:mihailsekuloski@gmail.com" onclick="clipboardCopy('mihailsekuloski@gmail.com', 'Email')">
+                    <script src="script.js"></script>
+                    <img src="icon/icon-email.png" alt="Email Icon" width=40px height=40px>
+                </a>
+                <br>
+                Or call me on my phone number:<br>
+                <span>+389 75 255 011</span><br>
+                <a onclick="clipboardCopy('+38975255011', 'Phone number')">
+                    <script src="script.js"></script>
+                    <img src="icon/icon-phone.png" alt="Phone Icon" width=40px height=40px>
+                </a>
+                <br>
+            </p>
+        </section>
+    </section>
+</section>
+</body>
+</html>

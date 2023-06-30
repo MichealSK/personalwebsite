@@ -1,0 +1,18 @@
+@import "globalCSS.css";
+@import "infoPages.css";
+
+section#uniSchool {
+    background: url("images/background-finki.jpg");
+    background-size: 100vw 100vh;
+    animation: transitionShift 1.5s ease-in;
+}
+section#hSchool {
+    background: url("images/background-gimnazija.jpg");
+    background-size: 100vw 100vh;
+    animation: transitionShift 3s ease-in;
+}
+section#emSchool {
+    background: url("images/background-metodi-patcev.png");
+    background-size: 100vw 100vh;
+    animation: transitionShift 4.5s ease-in;
+}

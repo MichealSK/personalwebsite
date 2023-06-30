@@ -1,0 +1,18 @@
+@import "globalCSS.css";
+@import "infoPages.css";
+
+section#prog {
+    background: url("images/background-technology1.jpg");
+    background-size: 100vw 75vh;
+    animation: transitionShift 1.5s ease-in;
+}
+section#art {
+    background: url("images/background-music1.jpg");
+    background-size: 100vw 50vh;
+    animation: transitionShift 3s ease-in;
+}
+section#gamedesign {
+    background: url("images/image-pixelArt.PNG");
+    background-size: 75vw 50vh;
+    animation: transitionShift 4.5s ease-in;
+}

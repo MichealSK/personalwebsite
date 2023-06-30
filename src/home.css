@@ -1,0 +1,44 @@
+@import "globalCSS.css";
+
+#startupImage {
+    position: absolute;
+    right: 0px;
+    width: 1950px;
+    height: 1035px;
+    top: -100px;
+    animation: transitionShiftNeg 2s ease-in;
+    opacity: 0;
+}
+body {
+    background: url("images/background1.webp");
+    background-size: 100vw 125vh;
+}
+
+section.mainBody {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.mainBody img {
+    scale: 35%;
+    margin: -400px;
+    border: none;
+    animation: transitionShift 6s ease-in;
+}
+section.mainBody h1 {
+    color: white;
+    text-shadow: 8px 8px 1px black;
+    animation: transitionShift 3s ease-in;
+    font-size: 72px;
+    text-align: center;
+    font-family: "Urban";
+}
+section.mainBody h2 {
+    color: white;
+    font-size: x-large;
+    text-shadow: 6px 6px 1px black;
+    animation: transitionShift 4s ease-in;
+    font-family: "Urban";
+}
